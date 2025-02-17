@@ -20,8 +20,9 @@ This PowerShell script helps manage and clean up old folders by:
 ## How It Works
 ### 1️⃣ Running the Script
 Run the script using PowerShell:
-```powershell
-.\Delete-OldFolders.ps1```
+```
+.\Delete-OldFolders.ps1
+```
 
 ##Choose an option:
 1. Delete all subfolders under the predefined drive path (\nas\ProductShare\TMSArtifacts).
