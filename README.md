@@ -24,5 +24,5 @@ Run the script using PowerShell:
 .\Delete-OldFolders.ps1```
 
 ##Choose an option:
-1. Delete all subfolders under the predefined drive path (\nas\ProductShare\TMSArtifacts).
-2. Specify a custom folder whose contents you want to delete (e.g., 'CreateBundles').
+1. Delete all subfolders under the predefined drive path (\YOUR_DRIVE).
+2. Specify a custom folder whose contents you want to delete (e.g., 'YOUR_DIRECTORY').

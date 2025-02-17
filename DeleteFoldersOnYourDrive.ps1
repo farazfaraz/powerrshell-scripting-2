@@ -27,8 +27,8 @@ net use U: \\YOUR_DRIVE /user:YOUR_USER_NAME YOUR_PASSWORD
 
 # Prompt the user to choose an option
 Write-Host "Choose an option:"
-Write-Host "1. Delete all subfolders under the predefined drive path (\nas\ProductShare\TMSArtifacts)."
-Write-Host "2. Specify a custom folder whose contents you want to delete(e.g., 'CreateBundles')."
+Write-Host "1. Delete all subfolders under the predefined drive path (\YOUR_DRIVE)."
+Write-Host "2. Specify a custom folder whose contents you want to delete(e.g., 'YOUR_DIRECTORY')."
 $choice = Read-Host "Enter your choice (1 or 2)"
 
 # Option 1: Predefined path
@@ -51,7 +51,7 @@ if ($choice -eq "1") {
 # Option 2: Custom path
 elseif ($choice -eq "2") {
     # Prompt the user to enter a custom path
-    $customPath = Read-Host "Enter the relative path under U:\ (e.g., 'CreateBundles')"
+    $customPath = Read-Host "Enter the relative path under U:\ (e.g., 'YOUR_DIRECTORY')"
     $fullPath = Join-Path "U:\" $customPath
 
     # Validate the path
